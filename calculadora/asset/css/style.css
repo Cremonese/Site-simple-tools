@@ -1,0 +1,142 @@
+
+
+body {
+    background-color: #b5c7f9;
+    
+}
+
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    margin-top: 3%;
+    margin-left: 25%;
+    padding: 4%;
+    border-radius: 10%;
+    background-color: rgb(215, 215, 215);
+    box-shadow: 10px 10px 3px  rgba(0, 0, 0, 0.3);
+}
+
+.tela-calculadora{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.input-screen{
+    border: transparent;
+    border-radius: 32px;
+    padding: 8px;
+    outline: none;
+    text-align: end;
+    font-size: 3rem;
+    font-weight: bold;
+    box-shadow: inset -2px -2px 1px rgba(0, 0, 0, 0.3);
+    color: #e6a759;
+    height: 100px;
+    width: 100%;
+   
+}
+
+
+.buttons{
+    display: flex;
+    height: 50%;
+}
+
+.button-numbers{
+    display: flex;
+    flex-wrap: wrap;    
+    justify-content: center;
+    gap: 5px;
+    width: 65%;
+}
+
+.btn-number{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    border: transparent;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 20%;
+    background-color: #e6a759;
+    box-shadow: inset 2px 2px 1px rgba(255, 255, 255, 0.3);
+}
+
+.btn-number:hover{
+    background-color: #b77422;
+    transition-duration: 200ms;
+    transition-delay: 10ms;
+}
+
+.button-nonumbers{
+    display: flex;
+    justify-content: space-between;    
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 35%;
+}
+
+
+.btn-operators{
+    height: 3rem;
+    width: 45%;
+    border: transparent;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 10%;
+    background-color: #e6a759;
+    box-shadow: inset 2px 2px 1px rgba(255, 255, 255, 0.3);
+}
+
+.btn-operators:hover{
+    background-color: #b77422;
+    transition-duration: 200ms;
+    transition-delay: 10ms;
+}
+
+.btn-backspace{
+    display: flex;
+    justify-content: end;
+    height: 4.5rem;
+    width: 100%;
+    background-color: #b77422;
+    border: transparent;
+    border-radius: 6px;
+
+}
+
+.btn-backspace img{
+    width: 15%;
+    margin-top: 2%;
+    margin-right: 5%;
+}
+
+.btn-result{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 4.5rem;
+    width: 100%;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #b77422;
+    background-color: #fff;
+    border: transparent;
+    border-radius: 6px;
+}
+
+.btn-result:hover{
+    background-color: #b77422;
+    color: #fff;
+    transition-duration: 200ms;
+    transition-delay: 50ms;
+}
